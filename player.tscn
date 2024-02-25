@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://de6m5ydlqe8dq"]
+
+[ext_resource type="Texture2D" uid="uid://b2hr1aaj7mkxx" path="res://Art/Pixel Crawler - FREE - 1.8/Heroes/Knight/Idle/Idle-Sheet.png" id="1_sw7uk"]
+
+[node name="Player" type="CharacterBody2D"]
+texture_filter = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_sw7uk")
+hframes = 4
